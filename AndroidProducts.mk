@@ -16,3 +16,8 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/lineage_mocha.mk
+
+COMMON_LUNCH_CHOICES := \
+    lineage_mocha-user \
+    lineage_mocha-userdebug \
+    lineage_mocha-eng
